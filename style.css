@@ -18,13 +18,15 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
+    display: flex;
+    flex-direction: column;
 
 }
 
 .container {
 
     max-width: 365px;
-    margin: 0 auto;
+    margin: auto auto;
     text-align: center;
     border-radius: 17px;
 
@@ -66,5 +68,19 @@ body {
 .text {
 
     padding: 0 12px;
+
+}
+
+
+.footer {
+
+    margin: 1.5rem;
+
+}
+
+.footer span a{
+
+    color: rgba(0, 0, 0, 0.2);
+    text-decoration: none;
 
 }
